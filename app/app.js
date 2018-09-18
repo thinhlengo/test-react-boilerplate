@@ -7,6 +7,15 @@
 
 // Needed for redux-saga es6 generator support
 import 'babel-polyfill';
+import 'jquery';
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.css';
+
+// import $ from 'jquery';
+// window.jQuery = $;
+// window.$ = $;
+// global.jQuery = $;
+// const bootstrap = require('bootstrap');
 
 // Import all the third party stuff
 import React from 'react';
